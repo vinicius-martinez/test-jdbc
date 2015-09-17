@@ -1,0 +1,16 @@
+# Maven build
+target
+
+# IDE settings
+.classpath
+.project
+.idea
+.iws
+.iml
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
