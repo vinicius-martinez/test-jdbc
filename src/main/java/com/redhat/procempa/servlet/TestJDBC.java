@@ -89,7 +89,7 @@ public class TestJDBC extends HttpServlet {
             DataSource ds = (DataSource) ctx.lookup(PROCEMPA_CUSTOMERS_JNDI);
             conn = ds.getConnection();
         } catch (Exception e) {
-            System.out.println(e);
+        	e.printStackTrace();
         }
         return conn;
 	}
